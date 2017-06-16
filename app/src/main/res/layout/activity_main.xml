@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center|top"
+    android:padding="20dp"
+    tools:context="com.example.joris.hoorcollegeechte.MainActivity">
+
+
+    <TextView
+        android:text="Twee opties. Zoek op de naam van de vogel, of zoek op een afbeelding van het vliegende dier.
+
+Klik op de knop onder aan het scherm om een foto te maken."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:layout_width="185dp"
+        android:layout_height="wrap_content"
+        android:hint="Ekster..."
+        android:id="@id/bird_name"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Zoek"
+        android:textAllCaps="false"
+        android:layout_marginTop="20dp"
+        android:onClick="getBird"/>
+
+
+    <TextView
+        android:text="Maak een foto:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@android:drawable/ic_menu_camera"
+        android:onClick="launchCamera"/>
+</LinearLayout>
