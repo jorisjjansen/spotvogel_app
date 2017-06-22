@@ -5,16 +5,22 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center|top"
+    android:background="#eaeaea"
     android:padding="20dp"
     tools:context="com.example.joris.hoorcollegeechte.MainActivity">
 
 
-    <TextView
-        android:text="Twee opties. Zoek op de naam van de vogel, of zoek op een afbeelding van het vliegende dier.
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="222dp"
+        android:layout_height="70dp"
+        android:src="@drawable/spot_logo"/>
 
-Klik op de knop onder aan het scherm om een foto te maken."
+    <TextView
+        android:text="Voer de naam van de vogel in:"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
         android:textStyle="bold"
         android:textSize="20sp"/>
 
@@ -34,10 +40,10 @@ Klik op de knop onder aan het scherm om een foto te maken."
 
 
     <TextView
-        android:text="Maak een foto:"
+        android:text="Of maak een foto:"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="350dp"
+        android:layout_marginTop="130dp"
         android:textStyle="bold"
         android:textSize="20sp"/>
 

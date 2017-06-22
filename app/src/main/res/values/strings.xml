@@ -1,7 +1,7 @@
 <resources>
-    <string name="app_name">HoorcollegeEchte</string>
+    <string name="app_name"></string>
     <string name="get_the_name_text_view">get_the_name_text_view</string>
     <string name="users_name_sent_back">users_name_sent_back</string>
-    <string name="enter_name_text_view">enter_name_text_view</string>
+    <string name="enter_name_text_view">Enter name: </string>
     <string name="calling_activity_message">calling_activity_message</string>
 </resources>
