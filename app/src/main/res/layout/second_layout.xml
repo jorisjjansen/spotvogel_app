@@ -28,21 +28,28 @@ android:orientation="vertical">
 
 
     <LinearLayout
-        android:layout-width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        >
-        <TextView android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Enter"
+        android:layout_width="match_parent"
+        android:weightSum="1">
+
+        <TextView
             android:id="@+id/enter"
-            android:layout_gravity="center"/>
+            android:layout_width="187dp"
+            android:layout_height="114dp"
+            android:layout_gravity="top"
+            android:text="Hier moet de beschrijving van de vogel komen te staan. Bijvoorbeeld hoe de vogel vliegt, wanneer hij in Nederland is of hoe men de vogel kan herkennen."
+            android:layout_weight="0.01" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Clear"
+            android:text="- Hier komen kenmerken
+- Te staan van vogels
+- Dit door gebruik te
+- "
             android:id="@+id/clear"
-            android:layout_gravity="bottom"/>
+            android:layout_gravity="top" />
+
     </LinearLayout>
 </LinearLayout>
